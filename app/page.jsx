@@ -112,7 +112,7 @@ export default function Home() {
             </button>
           </div>
           <button className="go-btn" onClick={runSearch} disabled={loading}>
-            {loading ? "Dhoond rahe hain..." : "Suggestions Nikaalein"}
+            {loading ? "Searching..." : "Get Suggestions"}
           </button>
         </div>
       </div>
