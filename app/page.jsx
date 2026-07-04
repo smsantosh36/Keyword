@@ -99,7 +99,7 @@ export default function Home() {
             <input
               ref={inputRef}
               type="text"
-              placeholder="Seed keyword daalein — jaise: yoga classes, coffee shop, digital marketing"
+              placeholder="Seed keyword Search — yoga classes, coffee shop, digital marketing"
               onKeyDown={handleKeyDown}
             />
           </div>
@@ -122,18 +122,19 @@ export default function Home() {
           <div className="count">
             {loading && (
               <>
-                <span className="blink">▍</span> &quot;{seed}&quot; ke liye suggestions dhoond rahe hain ({mode} mode)...
+                <span className="blink">▍</span> &quot;{seed}&quot; We are looking for suggestions for this.
+ ({mode} mode)...
               </>
             )}
             {!loading && !errored && results.length > 0 && (
               <>
-                <b>{results.length}</b> keyword ideas mile &quot;{seed}&quot; ke liye
+                <b>{results.length}</b> Here are some keyword ideas for &quot;{seed}&quot;
               </>
             )}
             {!loading && !errored && results.length === 0 && seed === "" && (
-              <>Search shuru karne ke liye upar keyword type karein.</>
+              <>Enter a keyword above to begin searching.</>
             )}
-            {errored && <>Backend se connect nahi ho paaya.</>}
+            {errored && <>Could not connect to the backend.</>}
           </div>
           {!loading && results.length > 0 && (
             <div className="toolbar">
@@ -147,7 +148,8 @@ export default function Home() {
         {!loading && errored && (
           <div className="empty-state">
             <div className="glyph">[ ! ]</div>
-            <p>API route se response nahi mila. Server dobara try karein ya console check karein.</p>
+            <p>The API route did not return a response. Retry the server or check the console for errors.
+</p>
           </div>
         )}
 
@@ -155,8 +157,8 @@ export default function Home() {
           <div className="empty-state">
             <div className="glyph">[ _ ]</div>
             <p>
-              Koi bhi seed keyword daalein — tool automatically questions, prepositions, aur alphabet-based 100+
-              related keyword ideas nikaal dega, saath mein estimated volume, difficulty aur CPC.
+             Enter any seed keyword — the tool will automatically generate 100+ related keyword ideas based on questions, prepositions, and alphabet variations, along with estimated search volume, difficulty, and CPC.
+
             </p>
           </div>
         )}
@@ -200,7 +202,8 @@ export default function Home() {
         )}
       </main>
 
-      <footer>Data source: Google Autocomplete · Volume/Difficulty/CPC estimates hain, exact figures nahi</footer>
+      <footer>Source: Google Autocomplete · Volume, keyword difficulty, and CPC are estimated metrics, not exact data.
+</footer>
     </>
   );
 }
