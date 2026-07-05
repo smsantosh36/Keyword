@@ -7,13 +7,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="hi">
+    <html lang="en">
       <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"></meta>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
+        <meta name="robots" content="INDEX,FOLLOW"></meta>
       </head>
       <body>{children}</body>
     </html>
