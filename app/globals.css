@@ -98,7 +98,7 @@ main{ max-width: 1100px; margin: 0 auto; padding: 26px 40px 60px; }
 
 .toolbar{ display:flex; gap:8px; }
 .toolbar button{
-  background: var(--bg-panel); border:1px solid var(--line); color:var(--text);
+  background: var(--bg-panel); border:1px solid var(--line); color:#ffffff;
   font-family: var(--mono); font-size:12px; padding:8px 12px; border-radius:8px; cursor:pointer;
 }
 .toolbar button:hover{ border-color: var(--accent); color: var(--accent); }
