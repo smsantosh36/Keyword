@@ -70,7 +70,7 @@ export async function GET(request) {
   const mode = searchParams.get("mode") || "quick";
 
   if (!keyword) {
-    return Response.json({ error: "Query param 'keyword' zaroori hai." }, { status: 400 });
+    return Response.json({ error: "The 'keyword' query parameter is required." }, { status: 400 });
   }
 
   try {
@@ -103,6 +103,6 @@ export async function GET(request) {
     });
   } catch (err) {
     console.error(err);
-    return Response.json({ error: "Kuch galat ho gaya. Baad mein try karein." }, { status: 500 });
+    return Response.json({ error: "Something went wrong. Please try again later." }, { status: 500 });
   }
 }
