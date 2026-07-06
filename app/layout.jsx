@@ -19,7 +19,9 @@ export default function RootLayout({ children }) {
         />
         <meta name="robots" content="INDEX,FOLLOW"></meta>
       </head>
-      <body>{children}</body>
+      <body>{children}
+        <Analytics />
+      </body>
     </html>
   );
 }
