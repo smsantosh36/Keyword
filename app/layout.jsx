@@ -11,9 +11,6 @@ export default function RootLayout({ children }) {
       <head>
         <meta http-equiv="X-UA-Compatible" content="ie=edge"></meta>
         <link rel="canonical" href="https://keyword-pi.vercel.app"></link>
-        <meta property="og:title" content="Generate 100+ Keyword Ideas Instantly | Free Keyword Research Tool"></meta>
-         <meta property="og:description" content="Enter any seed keyword and instantly discover 100+ related keyword ideas, question keywords, long-tail variations, search volume, keyword difficulty, and CPC data to grow your SEO faster."> </meta>
-         <meta property="og:image" content="https://keyword-pi.vercel.app"></meta>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
