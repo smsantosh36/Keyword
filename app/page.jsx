@@ -156,32 +156,32 @@ export default function Home() {
         {!loading && !errored && results.length === 0 && (
           <div className="empty-state">
             <div className="glyph">[ _ ]</div>
-            <div>
+            <div className="contentboxseo">
               <h2 className="brand">Find Profitable Keywords Faster and Grow Your Organic Traffic</h2>
               <p className="count">Turn a single seed keyword into <b>100+ high-value keyword ideas</b> in seconds. Our keyword research tool automatically expands your keyword into <b>questions, prepositions, and A to Z variations</b> so you can uncover exactly what your audience is searching for.</p>
               <p className="count">Get the data you need to make smarter SEO decisions — including <b>estimated search volume, keyword difficulty, and CPC</b> — all in one place. Whether you're planning blog content, building topic clusters, targeting long-tail keywords, or scaling your SEO strategy, this tool helps you discover ranking opportunities faster. </p>
               <h3 className="brand">Why Use This Keyword Research Tool?</h3>
               <p>Stop guessing what to write about. With one seed keyword, you can instantly find keyword opportunities that are easier to target, more relevant to user intent, and better for driving consistent organic traffic.</p>
               <h3 className="brand">What You’ll Get</h3>
-              <ul className="count">
-                  <li><b>100+ related keyword ideas</b> from a single keyword</li>
-                  <li><b>Question-based keywords</b> to target informational search intent</li>
-                  <li><b>Preposition keywords</b> to uncover comparison and problem-solving searches</li>
-                  <li><b>A–Z keyword variations</b> for long-tail content ideas</li>
-                  <li><b>Search volume estimates</b> to identify traffic potential</li>
-                  <li><b>Keyword difficulty data</b> to find easier ranking opportunities</li>
-                  <li><b>CPC insights</b> to understand commercial value and advertiser demand</li>
-              </ul>
+             
+                  <p className="count"><b>100+ related keyword ideas</b> from a single keyword</p>
+                  <p className="count"><b>Question-based keywords</b> to target informational search intent</p>
+                  <p className="count"><b>Preposition keywords</b> to uncover comparison and problem-solving searches</p>
+                  <p className="count"><b>A–Z keyword variations</b> for long-tail content ideas</p>
+                  <p className="count"><b>Search volume estimates</b> to identify traffic potential</p>
+                  <p className="count"><b>Keyword difficulty data</b> to find easier ranking opportunities</p>
+                  <p className="count"><b>CPC insights</b> to understand commercial value and advertiser demand</p>
+             
               <h3 className="brand"> Built for Faster SEO Growth</h3>
               <p className="count"> tool helps you move from keyword research to content creation without wasting hours on manual brainstorming. Use it to:</p>
-              <ul className="count">
-                  <li>Discover <b>low-competition keyword opportunities</b></li>
-                  <li>Build <b>SEO-friendly blog topics</b></li>
-                  <li>Create <b>long-form content outlines</b></li>
-                  <li>Improve <b>content planning and topical authority</b></li>
-                  <li>Find <b>buyer-intent and informational keywords</b></li>
-                  <li>Grow your <b>organic traffic with data-backed content ideas</b></li>
-              </ul>
+              
+                  <p className="count">Discover <b>low-competition keyword opportunities</b></p>
+                  <p className="count">Build <b>SEO-friendly blog topics</b></p>
+                  <p className="count">Create <b>long-form content outlines</b></p>
+                  <p className="count">Improve <b>content planning and topical authority</b></p>
+                  <p className="count">Find <b>buyer-intent and informational keywords</b></p>
+                  <p className="count">Grow your <b>organic traffic with data-backed content ideas</b></p>
+             
               <h3 className="brand">Turn One Keyword Into Your Next 100 Content Opportunities</h3>
               <p className="count">Whether you're an <b>SEO professional, blogger, content marketer, startup founder, or agency</b>, this tool gives you the keyword ideas and metrics you need to plan content that can rank faster and bring in more traffic.</p>
             </div>
