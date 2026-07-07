@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta http-equiv="X-UA-Compatible" content="ie=edge"></meta>
-        <link rel="canonical" href="https://keyword-pi.vercel.app"></link>
+        <link rel="canonical" href="https://freekeyword.vercel.app"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"

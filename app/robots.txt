@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://freekeyword.vercel.app/sitemap.xml
