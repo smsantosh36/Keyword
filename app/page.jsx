@@ -86,7 +86,7 @@ export default function Home() {
       <div className="hero">
         <div className="hero-top">
           <div className="brand">
-            <span className="dot"></span><h1 className="brand">KeywordRadar</h1>
+            <span className="dot"></span><h1 className="brand">Free Keyword Search</h1>
             <small>SEO KEYWORD SUGGESTION TOOL</small>
           </div>
         </div>

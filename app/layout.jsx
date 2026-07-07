@@ -1,9 +1,27 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
+  metadataBase: new URL("https://freekeyword.vercel.app"),
   title: "KeywordRadar — SEO Keyword Suggestion Tool",
   description: "Google Autocomplete-based keyword research tool with volume, difficulty aur CPC estimates.",
+  openGraph: {
+    title: "KeywordRadar — SEO Keyword Suggestion Tool",
+    description: "Google Autocomplete-based keyword research tool with volume, difficulty aur CPC estimates.",
+    url: "https://freekeyword.vercel.app",
+    siteName: "KeywordRadar",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Free Keyword — SEO Keyword Suggestion Tool",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -21,6 +39,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>{children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
